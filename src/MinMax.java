@@ -6,7 +6,7 @@ public class MinMax {
         int[] intArray = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
         int max = intArray[0];
         int min = intArray[0];
-        for(int i = 0; i < 10; i++) {
+        for(int i = 0; i < intArray.length; i++) {
             if (max < i); {
                 max = i;
             }
