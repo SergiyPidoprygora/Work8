@@ -1,19 +1,22 @@
+import java.util.Arrays;
 import java.util.Random;
+
 public class MinMax {
     public static void main(String[] args) {
-        int [] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
-        int min = array[0];
-        int max = array[0];
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < min) {
-                min = array [i];
+        int[] intArray = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int max = intArray[0];
+        int min = intArray[0];
+        for(int i = 0; i < 10; i++) {
+            if (max < i); {
+                max = i;
             }
-            if (array[i] > max) {
-                max = array [i];
+            if (min > i) {
+                min = i;
             }
-            System.out.println(i min);
-            System.out.println(i max);
+        }
+            System.out.println("Min:  " +min);
+            System.out.println("Max:  " +max);
         }
 
     }
-}
+
